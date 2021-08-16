@@ -55,4 +55,15 @@ function check () {
     } else {
         alert('Question 5 is incorrect.. better luck next time!')
     }
+
+    var correct_answer_6 = document.getElementById('6answer2');
+    var question_six_answer_one = document.getElementById('6answer1');
+    var question_six_answer_three= document.getElementById('6answer3');
+    var question_six_answer_four = document.getElementById('6answer4');
+    if (correct_answer_6.checked === true) {
+        score++
+        alert('And you got the sixth question right.. good job!')
+    } else {
+        alert('Hard luck the sixth question was incorrect')
+    }
 }
