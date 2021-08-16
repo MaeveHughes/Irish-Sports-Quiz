@@ -109,4 +109,6 @@ function check () {
         alert('You got the last question correct, I knew you could do it!')
     } else {
         alert('The last answer was incorrect!')
+    }
+    alert('Your total score is' + score++)
 }
