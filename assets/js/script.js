@@ -97,6 +97,16 @@ function check () {
         score++
         alert('High five! You got question 9 right!')
     } else {
-        alert('')
+        alert('Sorry you did not get question 9 correct')
     }
+
+    var correct_answer_10 = document.getElementById('10answer4');
+    var question_ten_answer_one = document.getElementById('10answer1');
+    var question_ten_answer_two= document.getElementById('10answer2');
+    var question_ten_answer_three = document.getElementById('10answer3');
+    if (correct_answer_10.checked === true) {
+        score++
+        alert('You got the last question correct, I knew you coukld do it!')
+    } else {
+        alert('Sorry you did not get question 9 correct')
 }
