@@ -44,4 +44,15 @@ function check () {
     } else {
         alert('Question 4 is incorrect!')
     }
+
+    var correct_answer_5 = document.getElementById('5answer2');
+    var question_five_answer_one = document.getElementById('5answer1');
+    var question_five_answer_three= document.getElementById('5answer3');
+    var question_five_answer_four = document.getElementById('5answer4');
+    if (correct_answer_5.checked === true) {
+        score++
+        alert('Question 5 is correct.. you smashed it!')
+    } else {
+        alert('Question 5 is incorrect.. better luck next time!')
+    }
 }
