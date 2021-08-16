@@ -78,14 +78,25 @@ function check () {
         alert('Unlucky on question number 7, you picked the incorrect answer.')
     }
 
-    var correct_answer_8 = document.getElementById('8answer3');
-    var question_seven_answer_one = document.getElementById('7answer1');
-    var question_seven_answer_two= document.getElementById('7answer2');
-    var question_seven_answer_four = document.getElementById('7answer4');
-    if (correct_answer_7.checked === true) {
+    var correct_answer_8 = document.getElementById('8answer1');
+    var question_eight_answer_two = document.getElementById('8answer2');
+    var question_eight_answer_three= document.getElementById('8answer3');
+    var question_eight_answer_four = document.getElementById('8answer4');
+    if (correct_answer_8.checked === true) {
         score++
-        alert('Question 7 is correct.. Absolute superstar!')
+        alert('Give yourself a pat on the back, you got question 8 right!')
     } else {
-        alert('Unlucky on question number 7, you picked the incorrect answer.')
+        alert('You picked the wrong answer for question 8!')
+    }
+
+    var correct_answer_9 = document.getElementById('9answer3');
+    var question_nine_answer_one = document.getElementById('9answer1');
+    var question_nine_answer_two= document.getElementById('9answer2');
+    var question_nine_answer_four = document.getElementById('9answer4');
+    if (correct_answer_9.checked === true) {
+        score++
+        alert('High five! You got question 9 right!')
+    } else {
+        alert('')
     }
 }
