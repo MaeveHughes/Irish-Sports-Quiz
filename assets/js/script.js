@@ -110,5 +110,5 @@ function check () {
     } else {
         alert('The last answer was incorrect!')
     }
-    alert('Your total score is' + score++)
+    alert('Your total score is ' + score++ + ' / 10')
 }
