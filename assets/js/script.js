@@ -31,7 +31,7 @@ function check () {
         score++
         alert('Amazing work, question 3 is correct!')
     } else {
-        alert('Bad news... question 3 is incorrect')
+        alert('Bad news... question 3 is incorrect!')
     }
 
     var correct_answer_4 = document.getElementById('4answer1');
