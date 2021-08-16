@@ -64,7 +64,7 @@ function check () {
         score++
         alert('And you got the sixth question right.. good job!')
     } else {
-        alert('Hard luck the sixth question was incorrect')
+        alert('Hard luck the sixth question was incorrect!')
     }
 
     var correct_answer_7 = document.getElementById('7answer3');
@@ -75,7 +75,7 @@ function check () {
         score++
         alert('Question 7 is correct.. Absolute superstar!')
     } else {
-        alert('Unlucky on question number 7, you picked the incorrect answer.')
+        alert('Unlucky on question number 7, you picked the incorrect answer!')
     }
 
     var correct_answer_8 = document.getElementById('8answer1');
@@ -97,7 +97,7 @@ function check () {
         score++
         alert('High five! You got question 9 right!')
     } else {
-        alert('Sorry you did not get question 9 correct')
+        alert('Sorry you did not get question 9 correct!')
     }
 
     var correct_answer_10 = document.getElementById('10answer4');
@@ -106,7 +106,7 @@ function check () {
     var question_ten_answer_three = document.getElementById('10answer3');
     if (correct_answer_10.checked === true) {
         score++
-        alert('You got the last question correct, I knew you coukld do it!')
+        alert('You got the last question correct, I knew you could do it!')
     } else {
-        alert('Sorry you did not get question 9 correct')
+        alert('The last answer was incorrect!')
 }
