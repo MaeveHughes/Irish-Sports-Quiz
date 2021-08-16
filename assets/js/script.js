@@ -66,4 +66,15 @@ function check () {
     } else {
         alert('Hard luck the sixth question was incorrect')
     }
+
+    var correct_answer_7 = document.getElementById('7answer3');
+    var question_seven_answer_one = document.getElementById('7answer1');
+    var question_seven_answer_two= document.getElementById('7answer2');
+    var question_seven_answer_four = document.getElementById('7answer4');
+    if (correct_answer_7.checked === true) {
+        score++
+        alert('Question 7 is correct.. Absolute superstar!')
+    } else {
+        alert('Unlucky on question number 7, you picked the incorrect answer.')
+    }
 }
