@@ -67,7 +67,16 @@ body {
     font-size: 160%;
 }
 
-/* Submit button at the end of the quiz */
+fieldset {
+    border: 3px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+    
+    /* Submit button at the end of the quiz */
 #submit {
     background-color: orange;
     border: 2px solid white; 
