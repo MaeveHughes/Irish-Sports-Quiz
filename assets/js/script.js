@@ -22,4 +22,15 @@ function check () {
     } else {
         alert('Unfortunately you did not get question 2 right!')
     }
+
+    var correct_answer_3 = document.getElementById('3answer4');
+    var question_three_answer_one = document.getElementById('3answer1');
+    var question_three_answer_two= document.getElementById('3answer2');
+    var question_three_answer_three = document.getElementById('3answer3');
+    if (correct_answer_3.checked === true) {
+        score++
+        alert('Amazing work, question 3 is correct!')
+    } else {
+        alert('Bad news... question 3 is incorrect')
+    }
 }
