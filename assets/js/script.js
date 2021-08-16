@@ -18,7 +18,7 @@ function check () {
     var question_two_answer_four = document.getElementById('2answer4');
     if (correct_answer_2.checked === true) {
         score++
-        alert('Well Done! Question 2 is Correct!')
+        alert('Well done! Question 2 is correct!')
     } else {
         alert('Unfortunately you did not get question 2 right!')
     }
