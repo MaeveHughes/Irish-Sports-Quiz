@@ -11,7 +11,7 @@ body {
     font-family: Asap Condensed, sans-serif;
     font-weight: 300px;
     background-color: orange;
-    color: white;
+    color: lemonchiffon;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@ body {
 #game-title {
     font-size: 100px;
     padding-top: 45px;
-    color: white;
+    color: lemonchiffon;
     display: inline-block;
 }
 /* Styling for the Footer*/
@@ -38,14 +38,14 @@ body {
     bottom: 0;
     width: 100%;
     background-color: orange;
-    color: white;
+    color:lemonchiffon;
     text-align: center;
     font-size: 16px;
 }
 
 #social-networks a{
     float: right;
-    color: white;
+    color:lemonchiffon;
     margin-right: 40px;
 }
 
@@ -66,9 +66,10 @@ body {
     margin-left: 40px;
     font-size: 160%;
 }
+/*Styling the question and answer boxes*/
 
 fieldset {
-    border: 3px solid white;
+    border: 3px solid lemonchiffon;
     border-radius: 12px;
     padding: 20px;
     text-align: center;
@@ -79,9 +80,9 @@ fieldset {
     /* Submit button at the end of the quiz */
 #submit {
     background-color: orange;
-    border: 5px solid white; 
+    border: 5px solid lemonchiffon; 
     border-radius: 12px;
-    color: white;
+    color: lemonchiffon;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
