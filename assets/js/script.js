@@ -33,4 +33,15 @@ function check () {
     } else {
         alert('Bad news... question 3 is incorrect')
     }
+
+    var correct_answer_4 = document.getElementById('4answer1');
+    var question_four_answer_two = document.getElementById('4answer2');
+    var question_four_answer_three= document.getElementById('4answer3');
+    var question_four_answer_four = document.getElementById('4answer4');
+    if (correct_answer_4.checked === true) {
+        score++
+        alert('Question 4 is correct!')
+    } else {
+        alert('Question 4 is incorrect!')
+    }
 }
