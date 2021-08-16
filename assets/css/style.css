@@ -17,3 +17,52 @@ body {
     align-items: center;
     font-size: 30px;
 }
+/* Styling the header */
+#header {
+    margin: 10px;
+    padding-bottom: 40px;
+}
+
+#game-title {
+    font-size: 100px;
+    padding-top: 45px;
+    color: white;
+    display: inline-block;
+}
+/* Styling for the Footer*/
+
+#footer {
+    position: fixed;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+#social-networks a{
+    float: right;
+    color: white;
+    margin-right: 40px;
+}
+
+#social-networks {
+    text-align: center;
+}
+
+#social-networks > li {
+    display: inline;
+}
+
+#social-networks li {
+    font-size: 160%;
+}
+
+#copyright {
+    float: left;
+    margin-left: 40px;
+    font-size: 160%;
+}
