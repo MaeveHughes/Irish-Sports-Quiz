@@ -66,3 +66,16 @@ body {
     margin-left: 40px;
     font-size: 160%;
 }
+
+/* Submit button at the end of the quiz */
+#submit {
+    background-color: orange;
+    border: 2px solid white; 
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
