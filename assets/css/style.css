@@ -79,7 +79,7 @@ body {
 }
     
     /* Submit button at the end of the quiz */
-#submit {
+button {
     background-color: orange;
     border: 5px solid lemonchiffon; 
     border-radius: 12px;
@@ -107,3 +107,5 @@ body {
 .score-box {
     display: none;
 }
+
+
