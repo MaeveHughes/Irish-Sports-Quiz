@@ -130,7 +130,7 @@ function deselectAnswers () {
 }
 
 function getSelected () {
-    let answerE1s
+    let answer
     answerE1s.forEach(answerE1 => {
         if(answerE1.checked) {
             answer = answerE1.id
@@ -159,6 +159,13 @@ submitButton.addEventListener('click',() => {
     if (checkedAnswer === quizData[currentQuiz].correct){
         score++;
     };
+    
+    currentQuiz++
+    if(currentQuiz < quizData.length) {
+        quizGame()
+    } else {
+        quiz.innerHTML = '<h2> Congratulations your total score is ${score}/${quizDate.length}</h2> <button onclick ="location.reload()">Start Again</button>'
+    }
 });
 
 
