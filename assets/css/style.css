@@ -93,7 +93,7 @@ button {
     cursor: pointer;
 }
 
-#submit:hover {
+button:hover {
     background-color: navajowhite;
 }
 
