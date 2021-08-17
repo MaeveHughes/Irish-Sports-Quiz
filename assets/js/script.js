@@ -156,9 +156,8 @@ const getCheckAnswer = () => {
 }
 
 submitButton.addEventListener('click',() => {
-    const checkedAnswer = getCheckAnswer
-
-    if (checkedAnswer === quizData[currentQuiz].correct){
+    const answer = getSelected ()
+    if (answer === quizData[currentQuiz].correct){
         score++;
     };
     
@@ -169,6 +168,3 @@ submitButton.addEventListener('click',() => {
         quiz.innerHTML = `<h2> Congratulations your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`
     }
 });
-
-
-
