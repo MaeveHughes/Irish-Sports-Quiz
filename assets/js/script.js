@@ -108,6 +108,8 @@ const c_text = document.getElementById('c-text')
 const d_text = document.getElementById('d-text')
 const submitButton = document.getElementById('submit')
 
+const answers = document.querySelectorAll('answer');
+
 let currentQuiz = 0
 let score = 0
 
@@ -138,4 +140,26 @@ function getSelected () {
 }
 
 /** Submitting the answer */
+const getCheckAnswer = () => {
+    let answer;
+
+    answers.forEach((curAnsElem) => {
+        if(curAnsElem.checked){
+            answer = curAnsElem.id
+        }
+        return answer;
+    }
+    )
+
+}
+
+submitButton.addEventListener('click',() => {
+    const checkedAnswer = getCheckAnswer
+    console.log(checkedAnswer);
+
+    if (checkedAnswer === quizData[currentQuiz].correct){
+        score++;
+    };
+});
+
 
