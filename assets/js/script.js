@@ -1,6 +1,6 @@
 /** Array of quiz questions and answers */
 
-const quiz = [
+const quizData = [
     {
         Question: 'Q1. Every September, thousands of fans decked in their county colours make their way to Croke Park for the GAA (Gaelic Athletic Association) All-Ireland Football and Hurling Championship finals. In what Irish city is this iconic stadium located?',
         a:'Cork',
