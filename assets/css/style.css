@@ -17,6 +17,12 @@ body {
     align-items: center;
     font-size: 30px;
 }
+
+@media screen and (max-width:760px){
+    body {
+        font-size: 20px;
+    }
+ }
 /* Styling the header */
 #header {
     margin: 10px;
@@ -29,6 +35,11 @@ body {
     color: lemonchiffon;
     display: inline-block;
 }
+@media screen and (max-width:760px){
+    #game-title {
+        font-size: 50px;
+    }
+ }
 /* Styling for the Footer*/
 
 #footer {
@@ -42,6 +53,13 @@ body {
     text-align: center;
     font-size: 16px;
 }
+
+@media screen and (max-width:760px){
+    #footer {
+        font-size: 14px;
+        height: 40px;
+    }
+ }
 
 #social-networks a{
     float: right;
@@ -92,6 +110,14 @@ button {
     font-weight: 700;
     cursor: pointer;
 }
+@media screen and (max-width:760px){
+    button {
+        font-size: 20px;
+        border: 2px solid lemonchiffon; 
+        padding: 5px 15px;
+        font-weight: 500;
+    }
+ }
 
 button:hover {
     background-color: navajowhite;
