@@ -1,3 +1,5 @@
+/** Quiz questions */
+
 const quiz = [
     {
         Question: 'Q1. Every September, thousands of fans decked in their county colours make their way to Croke Park for the GAA (Gaelic Athletic Association) All-Ireland Football and Hurling Championship finals. In what Irish city is this iconic stadium located?',
@@ -93,4 +95,46 @@ const quiz = [
         d:'Galway',
         correct:'d',
     }
-]
+];
+
+/** Loaing the quiz game */
+
+const quiz = document.getElementById('quiz')
+const answerE1s = document.querySelectorAll('.answer')
+const questionE1 = document.getElementById ('quiz-question')
+const a_text = document.getElementById('a-text')
+const b_text = document.getElementById('b-text')
+const c_text = document.getElementById('c-text')
+const d_text = document.getElementById('d-text')
+const submitButton = document.getElementById('submit')
+
+let currentQuiz = 0
+let score = 0
+
+quizGame ()
+
+function quizGame () {
+    deselectAnswers()
+    const currentQuizData = quizData[currentQuiz]
+    questionE1.innerText = currentQuizData.question
+    a_text.innerText = currentQuizData.a
+    b_text.innerText = currentQuizData.b
+    c_text.innerText = currentQuizData.c
+    d_text.innerText = currentQuizData.d
+}
+
+function deselectAnswers () {
+    answerE1s.forEach(answerE1s => answerE1s.checked = false)
+}
+
+function getSelected () {
+    let answerE1s
+    answerE1s.forEach(answerE1s => {
+        if(answerE1s.checked) {
+            answer = answerE1s.id
+        }
+    })
+    return answer
+}
+
+/** Submitting the answer */
