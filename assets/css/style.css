@@ -96,3 +96,14 @@ body {
 #submit:hover {
     background-color: navajowhite;
 }
+
+/* Styling for the score box*/
+
+#show-score {
+    background-color: lightgrey;
+
+}
+
+.score-box {
+    display: none;
+}
