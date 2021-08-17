@@ -12,40 +12,23 @@ body {
     font-weight: 300px;
     background-color: orange;
     color: lemonchiffon;
-    font-size: 30px;
-}
-/* Styling the header */
-
-#game-title {
-    font-size: 50px;
-    padding-top: 30px;
-    color: lemonchiffon;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
-    padding-bottom: 30px;
+    font-size: 30px;
+}
+/* Styling the header */
+#header {
+    margin: 10px;
+    padding-bottom: 40px;
 }
 
-#question-mark {
-    height: 5%;
-    width: 5%;
-    float: right;
-    text-align: right;
-    margin: 20px;
+#game-title {
+    font-size: 100px;
+    padding-top: 45px;
+    color: lemonchiffon;
+    display: inline-block;
 }
-
-#play-button {
-    margin: 20px;
-    height: 5%;
-    width: 5%;
-    float: right;
-}
-
-.unordered .list {
-    list-style: none;
-}
-
 /* Styling for the Footer*/
 
 #footer {
@@ -89,11 +72,10 @@ body {
     border: 3px solid lemonchiffon;
     border-radius: 12px;
     padding: 20px;
+    text-align: center;
     width: 50%;
     overflow: hidden;
     box-shadow: 0 .5rem .5rem rgba(0,0,0,0.4);
-    font-size: 30px;
-    color: lemonchiffon;
 }
     
     /* Submit button at the end of the quiz */
@@ -124,5 +106,3 @@ button:hover {
 .score-box {
     display: none;
 }
-
-
