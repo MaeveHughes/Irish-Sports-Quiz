@@ -14,7 +14,7 @@ const quizData = [
         a:'Rugby World Cup',
         b:'Six Nations',
         c:'The Rugby Championship',
-        d:''
+        d:'Rugby Europe Championship',
         correct:'b',
     },
     {
