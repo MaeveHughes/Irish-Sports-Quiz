@@ -138,3 +138,20 @@ function getSelected () {
 }
 
 /** Submitting the answer */
+submitButton.addEventListener("check()" => {
+    const answer = getSelected()
+    if(answer) {
+        if(answer ===quizData[currentQuiz].correct) {
+            score++
+        }
+
+        currentQuiz++
+        if(currentQuiz < quizData.length) {
+            quizGame()
+        } else {
+            quiz.innerHTML = 
+            'You are a superstar, your total score is ${score}/${quizData.length}!'
+            
+        }
+    }
+})
