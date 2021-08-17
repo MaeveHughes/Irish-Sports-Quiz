@@ -155,7 +155,6 @@ const getCheckAnswer = () => {
 
 submitButton.addEventListener('click',() => {
     const checkedAnswer = getCheckAnswer
-    console.log(checkedAnswer);
 
     if (checkedAnswer === quizData[currentQuiz].correct){
         score++;
