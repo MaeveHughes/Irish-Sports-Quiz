@@ -1,4 +1,4 @@
-/** Quiz questions */
+/** Array of quiz questions and answers */
 
 const quiz = [
     {
