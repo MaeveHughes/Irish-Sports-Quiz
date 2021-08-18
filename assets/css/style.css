@@ -46,7 +46,7 @@ header {
 }
 @media screen and (max-width:760px){
     #game-title {
-        font-size: 50px;
+        font-size: 30px;
     }
  }
 /* Styling for the Footer*/
@@ -171,6 +171,14 @@ button:hover {
     margin-right: 30px;
 }
 
+@media screen and (max-width:760px){
+    #instructions {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+}
+
 #how-play {
     border: 3px solid #282828;
     border-radius: 12px;
@@ -188,6 +196,15 @@ button:hover {
     height: 100px;
     width: 100px;
     float: right;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-right: 30px;
 }
+
+@media screen and (max-width:760px){
+    #play {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+}
+
