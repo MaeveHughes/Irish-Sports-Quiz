@@ -133,3 +133,11 @@ button:hover {
 .score-box {
     display: none;
 }
+
+/*Styling the start button*/
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
