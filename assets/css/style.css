@@ -27,6 +27,11 @@ body {
     }
  }
 /* Styling the header */
+header {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+}
 #header {
     margin: 10px;
     padding-bottom: 40px;
