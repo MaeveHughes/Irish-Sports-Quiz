@@ -87,6 +87,7 @@ body {
 /*Styling the question and answer boxes*/
 
 .quiz-box {
+    display: none;
     border: 3px solid lemonchiffon;
     border-radius: 12px;
     padding: 20px;
