@@ -1,4 +1,4 @@
-/*jshunt escersion: 6 */
+/*jshint esversion: 6 */
 
 /** Array of quiz questions and answers */
 
