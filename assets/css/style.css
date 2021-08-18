@@ -11,7 +11,7 @@ body {
     font-family: Asap Condensed, sans-serif;
     font-weight: 300px;
     background-color: orange;
-    color: lemonchiffon;
+    color: #282828;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,9 +107,9 @@ header {
     /* Submit button at the end of the quiz */
 button {
     background-color: orange;
-    border: 5px solid lemonchiffon; 
+    border: 5px solid  #282828;
     border-radius: 12px;
-    color: lemonchiffon;
+    color:  #282828;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -124,7 +124,7 @@ button {
 @media screen and (max-width:760px){
     button {
         font-size: 20px;
-        border: 2px solid lemonchiffon; 
+        border: 2px solid  #282828;
         padding: 5px 15px;
         font-weight: 500;
     }
