@@ -40,7 +40,7 @@ header {
 #game-title {
     font-size: 100px;
     padding-top: 45px;
-    color: lemonchiffon;
+    color: #282828;
     display: inline-block;
 }
 @media screen and (max-width:760px){
