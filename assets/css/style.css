@@ -147,11 +147,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 75%;
+    margin-top: 50%;
     background-color: orange;
     border: 5px solid #282828;
     border-radius: 12px;
     color: #282828;
+    font-size: 60px;
 
 .hide {
     display: none;
