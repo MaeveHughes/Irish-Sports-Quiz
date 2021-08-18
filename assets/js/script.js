@@ -115,8 +115,6 @@ const answers = document.querySelectorAll('answer');
 let currentQuiz = 0
 let score = 0
 
-quizGame ()
-
 function quizGame () {
     deselectAnswers()
     const currentQuizData = quizData[currentQuiz]
@@ -180,5 +178,5 @@ startButton.addEventListener('click',startGame)
 function startGame () {
     console.log("start game clicked")
     startButton.classList.add('hide')
-    .classList.remove('hide')
+    document.querySelector('#quiz').style.display = 'block';
 }

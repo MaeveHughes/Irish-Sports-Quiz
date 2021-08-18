@@ -95,7 +95,6 @@ header {
 /*Styling the question and answer boxes*/
 
 .quiz-box {
-    display: none;
     border: 3px solid lemonchiffon;
     border-radius: 12px;
     padding: 20px;
@@ -118,6 +117,9 @@ button {
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+}
+#quiz {
+    display: none;
 }
 @media screen and (max-width:760px){
     button {
@@ -153,7 +155,7 @@ button:hover {
     border-radius: 12px;
     color: #282828;
     font-size: 60px;
-
+}
 .hide {
     display: none;
 }
