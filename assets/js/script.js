@@ -1,3 +1,5 @@
+/*jshunt escersion: 6 */
+
 /** Array of quiz questions and answers */
 
 const quizData = [
@@ -101,69 +103,68 @@ const quizData = [
 
 /** Loaing the quiz game */
 
-const quiz = document.getElementById('quiz')
-const answerE1s = document.querySelectorAll('.answer')
-const question = document.getElementById ('quiz-question')
-const a_text = document.getElementById('a-text')
-const b_text = document.getElementById('b-text')
-const c_text = document.getElementById('c-text')
-const d_text = document.getElementById('d-text')
-const submitButton = document.getElementById('submit')
+const quiz = document.getElementById('quiz');
+const answerE1s = document.querySelectorAll('.answer');
+const question = document.getElementById ('quiz-question');
+const a_text = document.getElementById('a-text');
+const b_text = document.getElementById('b-text');
+const c_text = document.getElementById('c-text');
+const d_text = document.getElementById('d-text');
+const submitButton = document.getElementById('submit');
 
 const answers = document.querySelectorAll('answer');
 
-let currentQuiz = 0
-let score = 0
+let currentQuiz = 0;
+let score = 0;
 
 function quizGame () {
-    deselectAnswers()
-    const currentQuizData = quizData[currentQuiz]
-    question.innerText = currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
+    deselectAnswers();
+    const currentQuizData = quizData[currentQuiz];
+    question.innerText = currentQuizData.question;
+    a_text.innerText = currentQuizData.a;
+    b_text.innerText = currentQuizData.b;
+    c_text.innerText = currentQuizData.c;
+    d_text.innerText = currentQuizData.d;
 }
 
 function deselectAnswers () {
-    answerE1s.forEach(answerE1s => answerE1s.checked = false)
+    answerE1s.forEach(answerE1s => answerE1s.checked = false);
 }
 
 function getSelected () {
-    let answer
+    let answer;
     answerE1s.forEach(answerE1 => {
         if(answerE1.checked) {
-            answer = answerE1.id
+            answer = answerE1.id;
         }
-    })
-    return answer
+    });
+    return answer;
 }
 
 /** Submitting the answer */
-const getCheckAnswer = () => {
     let answer;
 
     answers.forEach((curAnsElem) => {
         if(curAnsElem.checked){
-            answer = curAnsElem.id
+            answer = curAnsElem.id;
         }
         return answer;
     }
-    )
+    );
 
-}
+};
 
 submitButton.addEventListener('click',() => {
-    const answer = getSelected ()
+    const answer = getSelected ();
     if (answer === quizData[currentQuiz].correct){
         score++;
-    };
+    }
     
-    currentQuiz++
+    currentQuiz++;
     if(currentQuiz < quizData.length) {
-        quizGame()
+        quizGame();
     } else {
-        quiz.innerHTML = `<h2> Congratulations your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`
+        quiz.innerHTML = `<h2> Congratulations your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`;
     }
 });
 
@@ -171,13 +172,13 @@ submitButton.addEventListener('click',() => {
  * Adding JS code so once the user clicks on the start button the game will begin
  */
 
-const startButton = document.getElementById('start-btn')
+const startButton = document.getElementById('start-btn');
 
-startButton.addEventListener('click',startGame)
+startButton.addEventListener('click',startGame);
 
 function startGame () {
-    console.log("start game clicked")
-    startButton.classList.add('hide')
-    quizGame()
+    console.log("start game clicked");
+    startButton.classList.add('hide');
+    quizGame();
     document.querySelector('#quiz').style.display = 'block';
 }
