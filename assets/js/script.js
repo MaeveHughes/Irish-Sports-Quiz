@@ -150,9 +150,7 @@ function getSelected () {
         }
         return answer;
     }
-    );
-
-};
+);
 
 submitButton.addEventListener('click',() => {
     const answer = getSelected ();
