@@ -146,5 +146,5 @@ button:hover {
 }
 
 .hide {
-    background-color: orange;
+    display: none;
 }
