@@ -161,3 +161,8 @@ button:hover {
 .hide {
     display: none;
 }
+
+#instructions {
+    height: 100px;
+    width: 100px;
+}
