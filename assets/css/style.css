@@ -141,3 +141,7 @@ button:hover {
     align-items: center;
     margin-top: 50%;
 }
+
+.hide {
+    background-color: orange;
+}

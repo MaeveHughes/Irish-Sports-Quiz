@@ -168,3 +168,17 @@ submitButton.addEventListener('click',() => {
         quiz.innerHTML = `<h2> Congratulations your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`
     }
 });
+
+/** When the webpage loads user is welcomed with a start Quiz button
+ * Adding JS code so once the user clicks on the start button the game will begin
+ */
+
+const startButton = document.getElementById('start-btn')
+
+startButton.addEventListener('click',startGame)
+
+function startGame () {
+    console.log("start game clicked")
+    startButton.classList.add('hide')
+    .classList.remove('hide')
+}
