@@ -32,6 +32,7 @@ header {
     width: 100%;
     text-align: center;
 }
+
 #header {
     margin: 10px;
     padding-bottom: 40px;
@@ -165,4 +166,7 @@ button:hover {
 #instructions {
     height: 100px;
     width: 100px;
+    float: right;
+    padding-top: 45px;
+    margin-right: 30px;
 }
