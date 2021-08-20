@@ -63,22 +63,8 @@ submitButton.addEventListener('click',() => {
     if(currentQuiz < quizData.length) {
         quizGame();
     } else {
-        quiz.innerHTML = `<h2> Your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`;
+        quiz.innerHTML = `<h2> You have completed the quiz. Your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`;
     }
-    const messages =["Congratulations, you know a lot about Irish Sports!! ", "Well done, but a bit more study needed on Irish sports", "Maybe try again when you know a bit more about Irish sports"]
-
-    var range
-    if (score < 3) {
-        range = 2;
-    }
-    if (score > 3 && score < 6) {
-        range = 1;
-    }
-    if (score > 6) {
-        range = 0;
-    }
-    document.getElementById("message").innerHTML = message[range];
-});
 
 /** When the webpage loads user is welcomed with a start Quiz button
  * Adding JS code so once the user clicks on the start button the game will begin
