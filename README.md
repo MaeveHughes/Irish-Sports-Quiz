@@ -53,7 +53,7 @@
     - After being pushed from Git, GitHub is used to store the projects code.
 1. [Flaticon:](https://www.flaticon.com/)
     - Flaticon was used to provide the how to play image and the play image on the webage.
-2. [Flaticon:](https://www.flaticon.com/)
+2. [Teachwires:](https://www.teachwire.net/news/question-mark-worksheets-activities-and-resources-for-year-1-and-year-2-english
     - Flaticon was used to provide the background image on the webage.
 
     ## Testing
@@ -86,9 +86,37 @@ The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were u
         2. As a Frequent User, I want to see if there was any additional questions added to the quiz.
             Frequest users would possibly get use to the questions on the quiz so they would nearly be able to answer the questions from their memory rather than their actual knowledge of Irish sports. The user would already be comfortable with the website layout and can check if there is any questions added to the quiz.
 
+        ### Further Testing
+
 -   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 -   The website was viewed on a variety of devices such as Laptop, iPhone & Galaxy S5.
 -   All links were tested multiple times on different devices.
+
+![Image of Responsive Design]()
+
+### Known Bugs
+
+-   The play button is out of place on an iPad device.
+
+ ## Credits
+
+  ### Header and Footer
+  - The header and footer design was assisted with tutorial notes and the love running project.
+
+  ### Quiz
+  - The start button on the home page was take from https://www.youtube.com/watch?v=riDzcEQbX6k
+  - The images for the how to play and play were taken from 
+  - The background image was taken from https://www.teachwire.net/news/question-mark-worksheets-activities-and-resources-for-year-1-and-year-2-english
+  - The quiz layout was learnt from https://www.youtube.com/watch?v=ZGpi1iZ1oZo
+  - The quiz questions were taken from https://www.ireland.com/en-in/magazine/sport/sports-quiz/ and 
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback and assistance.
+
+-   Tutor support at Code Institute and my friends from my course for their support and guidance.
+
+
 
 
 
