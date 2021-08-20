@@ -9,7 +9,6 @@
     -   #### First Time Visitor Goals
         1. As a First Time Visitor, I want to learn how to play the quiz.
         2. As a First Time Visitor, I want to challenge myself on my knowledge of Irish ports.
-        3. As a First Time Visitor, I want to find the quiz makers on social media.
 
     -   #### Returning Visitor Goals
 
@@ -56,6 +55,40 @@
     - Flaticon was used to provide the how to play image and the play image on the webage.
 2. [Flaticon:](https://www.flaticon.com/)
     - Flaticon was used to provide the background image on the webage.
+
+    ## Testing
+
+The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://validator.w3.org/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [JSHint Javascipt Validator](https://jshint.com/)
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+        1. As a First Time Visitor, I want to learn how to play the quiz.
+            Users are greated on the home page with a question mark image, once clicked the user is brought to a how to play page where the instructions are laid out in a numerical order which it makes it easy for the user to follow.
+        2. As a First Time Visitor, I want to challenge myself on my knowledge of Irish ports.
+            The quiz is made up of ten questions about a range of sport, sporting history and famous sports people. This will be a challenge for both people who know a lot about Irish sports and people who only know a little.
+        3. As a First Time Visitor, I want to find the quiz makers on social media.
+            The social media links can be found on the footer on every page of the website. The website provides a link to all the major social media platforms; Facebook, Twitter, Youtube and Instagram.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to see can I increase my score
+            At the end of the quiz, once the user submits their last question, a pop up box appears to show the users score. The user can play the quiz as many times as they want.
+
+
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to find the quiz makers on social media.
+            The social media links can be found on the footer on every page of the website. The website provides a link to all the major social media platforms; Facebook, Twitter, Youtube and Instagram.
+        2. As a Frequent User, I want to see if there was any additional questions added to the quiz.
+            Frequest users would possibly get use to the questions on the quiz so they would nearly be able to answer the questions from their memory rather than their actual knowledge of Irish sports. The user would already be comfortable with the website layout and can check if there is any questions added to the quiz.
+
+-   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+-   The website was viewed on a variety of devices such as Laptop, iPhone & Galaxy S5.
+-   All links were tested multiple times on different devices.
 
 
 
