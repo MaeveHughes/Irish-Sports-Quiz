@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-
-
 /** Loaing the quiz game */
 
 const quiz = document.getElementById('quiz');
@@ -65,6 +63,7 @@ submitButton.addEventListener('click',() => {
     } else {
         quiz.innerHTML = `<h2> You have completed the quiz. Your total score is ${score}/${quizData.length}</h2> <br> <button onclick ="location.reload()">Start Again</button>`;
     }
+});
 
 /** When the webpage loads user is welcomed with a start Quiz button
  * Adding JS code so once the user clicks on the start button the game will begin
@@ -75,7 +74,6 @@ const startButton = document.getElementById('start-btn');
 startButton.addEventListener('click',startGame);
 
 function startGame () {
-    
     startButton.classList.add('hide');
     quizGame();
     document.querySelector('#quiz').style.display = 'block';
