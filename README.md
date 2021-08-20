@@ -40,6 +40,24 @@
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
+### Frameworks, Libraries & Programs Used
+
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on all buttons on the website to add a colour transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the fonts used into the style.css file which is used on all pages throughout the website.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on the footer on the website to add icons that are pleasing to the eye.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by using Gitpod to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - After being pushed from Git, GitHub is used to store the projects code.
+1. [Flaticon:](https://www.flaticon.com/)
+    - Flaticon was used to provide the how to play image and the play image on the webage.
+2. [Flaticon:](https://www.flaticon.com/)
+    - Flaticon was used to provide the background image on the webage.
+
+
 
 
 
