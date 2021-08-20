@@ -108,7 +108,7 @@ The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were u
   - The images for the how to play and play were taken from 
   - The background image was taken from https://www.teachwire.net/news/question-mark-worksheets-activities-and-resources-for-year-1-and-year-2-english
   - The quiz layout was learnt from https://www.youtube.com/watch?v=ZGpi1iZ1oZo
-  - The quiz questions were taken from https://www.ireland.com/en-in/magazine/sport/sports-quiz/ and 
+  - The quiz questions were taken from https://www.ireland.com/en-in/magazine/sport/sports-quiz/ and https://www.funtrivia.com/en/Sports/Ireland-19966.html
 
 ### Acknowledgements
 
