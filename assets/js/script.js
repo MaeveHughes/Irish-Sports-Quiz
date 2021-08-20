@@ -76,7 +76,7 @@ const startButton = document.getElementById('start-btn');
 startButton.addEventListener('click',startGame);
 
 function startGame () {
-    console.log("start game clicked");
+    
     startButton.classList.add('hide');
     quizGame();
     document.querySelector('#quiz').style.display = 'block';
