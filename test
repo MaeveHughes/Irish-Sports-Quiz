@@ -1,0 +1,12 @@
+    const messages =["Congratulations, you know a lot about Irish Sports!! ", "Well done, but a bit more study needed on Irish sports", "Maybe try again when you know a bit more about Irish sports"]
+
+    var range
+    if (correct < 3) {
+        range = 2;
+    }
+    if (correct > 3 && correct < 6) {
+        range = 1;
+    }
+    if (correct > 6) {
+        range = 0;
+    }
