@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-/** Loaing the quiz game */
+/** Loading the quiz game */
 
 const quiz = document.getElementById('quiz');
 const answerE1s = document.querySelectorAll('.answer');
