@@ -71,8 +71,6 @@ The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were u
             Users are greeted on the home page with a question mark image, once clicked the user is brought to a how to play page where the instructions are laid out in a numerical order which it makes it easy for the user to follow.
         2. As a First Time Visitor, I want to challenge myself on my knowledge of Irish sports.
             The quiz is made up of ten questions about a range of sports, sporting history and famous sports people. This will be a challenge for both people who know a lot about Irish sports and people who only know a little.
-        3. As a First Time Visitor, I want to find the quiz makers on social media.
-            The social media links can be found on the footer of the quiz. The website provides a link to all the major social media platforms; Facebook, Twitter, Youtube and Instagram.
 
     -   #### Returning Visitor Goals
 
@@ -103,7 +101,7 @@ The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were u
 
   ### Quiz
   - The start button on the home page was take from https://www.youtube.com/watch?v=riDzcEQbX6k
-  - The images for the how to play and play were taken from 
+  - The images for the how to play and play were taken from https://www.flaticon.com/
   - The background image was taken from https://www.teachwire.net/news/question-mark-worksheets-activities-and-resources-for-year-1-and-year-2-english
   - The quiz layout was learnt from https://www.youtube.com/watch?v=ZGpi1iZ1oZo
   - The quiz questions were taken from https://www.ireland.com/en-in/magazine/sport/sports-quiz/ and https://www.funtrivia.com/en/Sports/Ireland-19966.html
