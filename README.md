@@ -92,8 +92,6 @@ The W3C Markup Validator, JSHint Javascipt and W3C CSS Validator Services were u
 -   The website was viewed on a variety of devices such as Laptop, iPhone & Galaxy S5.
 -   All links were tested multiple times on different devices.
 
-![Image of Responsive Design]()
-
 ### Known Bugs
 
 -   The play button is out of place on an iPad device.
