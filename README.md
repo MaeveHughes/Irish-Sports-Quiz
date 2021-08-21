@@ -2,7 +2,7 @@
 
 [View the live project here.](https://maevehughes.github.io/Irish-Sports-Quiz/)
 
-<p>This is a quiz webbage for fans of Irish sport. It is designed to challenge fans on their knowledge of Irish sports. This site is targeted towards people of any age who have an interest in Irish sports.</p>
+<p>This is a quiz webpage for fans of Irish sport. It is designed to challenge fans on their knowledge of Irish sports. This site is targeted towards people of any age who have an interest in Irish sports.</p>
 
 -   ### User stories
 
